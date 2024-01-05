@@ -1,0 +1,84 @@
+#content-body{
+
+}
+#sticky{
+    position: sticky;
+    top:0px;
+}
+
+#searchBar-div{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: pink;
+    padding: 10px;
+}
+
+#form-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 5px; */
+    gap:10px;
+    background-color: #fff;
+}
+#form{
+    display: flex;
+}
+#form input{
+    width: 500px;
+    height: 30px;
+    padding: 3px 10px;
+    border: 1px solid black;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    outline: none;
+}
+#form button{
+    width:60px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-left: none;
+    border: 1px solid black;
+    outline: none;
+}
+#mic{
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+#user{
+    display: flex;
+    gap: 15px; 
+    margin-right: 20px;
+    
+}
+#user div img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+#interest-container{
+    white-space: nowrap;
+    overflow-x: scroll;
+    padding: 5px 15px;
+    background-color: #fff;
+}
+#interest-container::-webkit-scrollbar{
+    display: none;
+    scroll-behavior: smooth;
+}
+.interest{
+    font-size: 13px;
+    font-weight: 600;
+    padding: 8px 15px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+#videos{
+    padding: 15px;
+}
