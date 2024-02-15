@@ -1,7 +1,19 @@
+/*              Side Bar CSS */
+
+
 *{
  margin: 0;
  padding: 0;
 }
+
+:root{
+
+    --Colordark : #0F0F0F;
+    --ColorHover :#E2E2E2;
+    --ColorText: #707070;
+}
+
+
 #container{
     width:100vw;
     height: 100vh;
@@ -13,13 +25,13 @@
 
 #side-bar{
     box-sizing: border-box;
-    background-color: yellow;
+    /* background-color: yellow; */
     padding: 0px 20px 20px 20px;
     overflow-y: scroll;
 }
 /* width */
 #side-bar::-webkit-scrollbar, #content-body::-webkit-scrollbar{
-  width: 8px;
+  width: 6px;
 }
 
 /* Track */
@@ -39,7 +51,7 @@
 }
 #content-body{
     box-sizing: border-box;
-    background-color: rgb(228, 26, 60);
+    /* background-color: rgb(228, 26, 60); */
     overflow: scroll;
 }
 
@@ -50,10 +62,10 @@
     /* padding-left: 20px; */
     
     align-items: center;
-    background-color: pink;
+    /* background-color: pink; */
 }
 #menu_bar{
-    background-color: aqua;
+    /* background-color: aqua; */
     width: 30px;
     height: 30px;
     font-size: 25px;
@@ -65,8 +77,11 @@
     align-items: center;
     
 }
+#menu_bar:hover{
+    background-color: var(--ColorHover);
+}
 #utube_logo div{
-    background-color: brown;
+    /* background-color: brown; */
     width: 120px;
     height: 50px;
     display: flex;
@@ -81,7 +96,7 @@
     margin-top: 10px;
     /* background-color: aliceblue; */
     padding-bottom: 20px;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid var(--ColorHover);
 }
 .sb-div{
     width: 200px;
@@ -89,11 +104,14 @@
     gap: 10px;
     align-items: center;
     padding:7px 5px 7px 5px;
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
     border-radius: 10px;
 }
 .sb-div span{
     font-size: 28px;
+}
+.sb-div:hover{
+    background-color: var(--ColorHover);
 }
 .sb-div span img{
     width: 30px;

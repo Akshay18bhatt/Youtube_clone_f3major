@@ -1,3 +1,13 @@
+/*              Form CSS -->             */
+
+:root{
+
+    --Colordark : #0F0F0F;
+    --ColorHover :#E2E2E2;
+    --ColorText: #707070;
+    --white: white;
+}
+
 #content-body{
 
 }
@@ -12,7 +22,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: pink;
+    background-color: var(--white);
     padding: 10px;
 }
 
@@ -74,11 +84,12 @@
 .interest{
     font-size: 13px;
     font-weight: 600;
-    padding: 8px 15px;
-    border-radius: 10px;
-    border: 1px solid black;
+    padding: 7px 13px;
+    border-radius: 8px;
+    border: none;
+}
+.interest:hover{
+    background-color: var(--ColorHover);
 }
 
-#videos{
-    padding: 15px;
-}
+

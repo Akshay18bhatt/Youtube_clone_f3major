@@ -3,8 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>YouTube-Home</title>
     <link rel="stylesheet" href="stylee.css" />
+    <link rel="stylesheet" href="videoDisplayStyling.css">
     <link rel="stylesheet" href="content_stylee.css" />
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -110,7 +111,7 @@
         <div id="more_utube">
           <h4>MORE FROM YOUTUBE</h4>
           <div class="sb-div">
-            <span><img src="./assets/premium.svg" alt="" /></span>
+            <span><img src="./assets/premium.svg" alt=""/></span>
             <p>Youtube Premium</p>
           </div>
           <div class="sb-div">
@@ -157,7 +158,7 @@
             <div></div>
             <div id="form-div">
               <form action="#" id="form">
-                <input type="text" placeholder="Search" />
+                <input type="text" placeholder="Search" name="searchQuery" />
                 <button class="material-icons">search</button>
               </form>
               <button class="material-icons" id="mic">mic</button>
@@ -195,7 +196,7 @@
 
         <div id="videos">
 
-            <div>
+            <!-- <div>
                 <div>
                     <img src="" alt="">
                 </div>
@@ -207,11 +208,15 @@
                     <span>views count</span>
                     <span>time</span>
                 </div>
-            </div>
+            </div> -->
             
         </div>
       </div>
     </div>
     <script src="./youtube_ui.js"></script>
+    <script src="./search.js"></script>
   </body>
 </html>
+
+
+
